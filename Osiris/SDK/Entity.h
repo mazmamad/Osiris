@@ -192,7 +192,7 @@ public:
         playerName.erase(std::remove(playerName.begin(), playerName.end(), '\n'), playerName.cend());
         return playerName;
     }
-
+    
     NETVAR(body, "CBaseAnimating", "m_nBody", int)
     NETVAR(hitboxSet, "CBaseAnimating", "m_nHitboxSet", int)
 
